@@ -1,0 +1,15 @@
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[project]
+name = "igas-rag"
+version = "0.1.0"
+description = "IGAS RAG project"
+requires-python = ">=3.14,<3.15"
+dependencies = [
+    "mistralai==1.10.0",
+]
+
+[tool.poetry]
+package-mode = false
